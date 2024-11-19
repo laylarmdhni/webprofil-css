@@ -1,0 +1,371 @@
+/* Reset gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+header {
+    background: rgb(39, 99, 155);
+    color: white;
+    padding: 2em;
+    margin: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+#home, #profil, #galeri, #kontak {
+    margin-bottom: 2em;
+}
+
+.gallery {
+    display: flex;
+    gap: 1em;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+#home {
+    text-align: center;
+    padding: 20px;
+}
+
+#home h2, 
+#home p, 
+.skills h3 {
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.intro-text h3 {
+    margin: 10px 0;
+}
+
+.skills {
+    margin-top: 20px;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style untuk section profile */
+#profile {
+    padding: 40px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk header profile */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+}
+hr
+.profile-header h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 5px 0;
+}
+hr
+.profile-header p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 0;
+}
+
+/* Style untuk bagian bio, education, experience, skills */
+.bio, .education, .experience, .skills {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bio h3, .education h3, .experience h3, .skills h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.bio hr, .education hr, .experience hr, .skills hr {
+    border: 0;
+    height: 2px;
+    background-color: #333;
+    width: 50px;
+    margin: 5px 0 15px 0; /* Jarak garis */
+}
+
+.bio p, .education ul, .experience ul, .skills ul {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Style untuk list item */
+.education ul, .experience ul, .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education li, .experience li, .skills li {
+    margin-bottom: 8px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+/* Style untuk galeri */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ukuran gambar lebih kecil dan grid responsif */
+    gap: 8px; /* Jarak antar gambar yang cukup rapat */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; /* Sedikit melengkung di sudut gambar */
+}
+
+/* Kontak Section */
+#kontak {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+#kontak h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
